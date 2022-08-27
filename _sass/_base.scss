@@ -188,6 +188,7 @@ p {
     margin-bottom: 2px;
   }
   .job-title,
+  .skill-category,
   .degree {
     color: $text-color;
     font-size: 16px;
@@ -262,6 +263,26 @@ p {
     height: 12px;
     background: lighten($theme-color, 15%);
   }
+}
+
+.skill-elements {
+  width: 100%;
+  margin-left: auto ;
+  margin-right: auto ;
+  background-color: $smoky-white;
+}
+
+.skill-elements  ul {
+  list-style-type: none; /*to remove bullets*/
+  text-align: justify;
+  padding: 0px;
+  zoom:1;
+  overflow: hidden;
+}
+.skill-elements  li{
+  padding: 2px;
+  width: 150px;
+  display:inline-block;
 }
 
 .footer {
