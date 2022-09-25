@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Leo Apaza
-    tagline: QA Automation
+    tagline: QA Automation Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -28,14 +28,25 @@ sidebar:
     #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: Ingles
-        level: A2
+      title: Idiomas
+      info:
+        - idiom: Español
+          level: Nativo
+
+        - idiom: Ingles
+          level: A2
 
     interests:
-      - item: Blockchain
-        link:
-      - item: Desarrollo Mobile
-        link:    
+      title: Intereses
+      info:
+        - item: Blockchain
+          link:
+
+        - item: Programacion
+          link:
+
+        - item: Desarrollo Mobile
+          link:
 
 career-profile:
     title: Perfil Profesional
@@ -46,7 +57,7 @@ career-profile:
 
 education:
     title: Formación Académica
-    graduation:
+    info:
       - degree: Ingeniero en Sistemas de Información
         university: Universidad Tecnológica Nacional (UTN)
         time: |
@@ -58,7 +69,7 @@ education:
 
 experiences:
       title: Experiencia Profesional
-      list:
+      info:
       - role: QA Automation Architecture
         time: 12/2021 - Actualidad
         company: Geopagos, Argentina
