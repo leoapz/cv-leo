@@ -87,7 +87,7 @@ experiences:
         details: |
           - Diseño, construcción y mantenimiento de pruebas automatizadas
           - Pruebas Web y Servicios Rest con Katalon/Java
-          - Pruebas Mobile con Apium/Java
+          - Pruebas Mobile con Appium/Java
           - Mantenimiento de librerías en python y java
           - Ejecución de pruebas de carga y stress con Jmeter
           - Implementación de CI/CD Gitlab
@@ -124,13 +124,13 @@ skills:
           <i class="fas fa-robot"></i> Web/Services Automation
         elements:
           - name: Selenium/Python/Java
+          - name: RobotFramework/Python
           - name: Cypress/Javascript
           - name: Katalon/Java
-          - name: RobotFramework/Python
       - category: >
           <i class="fas fa-mobile"></i> Mobile Automation
         elements:
-          - name: Apium/Android
+          - name: Appium/Android
       - category: >
           <i class="fas fa-tachometer-alt"></i> Performance Test
         elements:
