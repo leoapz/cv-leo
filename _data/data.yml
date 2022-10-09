@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Leo Apaza
     tagline: QA Automation Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    #avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     country: Tucumán, Argentina
@@ -37,13 +37,6 @@ sidebar:
       - item: AI
         link:    
 
-career-profile:
-    title: Perfil Profesional
-    summary: |
-      Soy Ingeniero en Sistemas de Información y Analista Universitario en Sistemas.
-      Lleve a cabo diversas tareas relacionadas al desarrollo de software en mi carrera profesional. Actualmente, formo parte del equipo de QA Automation en Geopagos.
-      Soy realmente un apasionado de mi trabajo, siempre buscando la mejora continua, tanto personal como profesional.
-
 education:
     title: Formación Académica
     graduation:
@@ -63,23 +56,25 @@ experiences:
         time: 12/2021 - Actualidad
         company: Geopagos, Argentina
         details: |
-          - Definición de estrategias de Pruebas Automatizadas
-          - Brindar soporte y capacitación al equipo de QA para automatizar pruebas funcionales
-          - Elaboración de framework de pruebas automatizadas con Cypress
-          - Pruebas de conceptos sobre nuevas tecnologías en automatización de pruebas
-          - Colaboracion y comunicacion con los distintos equipos para la mejora de procesos
+          - Automatización de pruebas funcionales con JavaScript y Cypress
+          - Definición de la Estrategia de Pruebas Automatizadas para cada equipo
+          - Evaluación de frameworks y herramientas de automatización para las distintas necesidades de los proyectos
+          - Definición de la Arquitectura y Patrones de Diseño de los Test Cases para lograr una solución mantenible y escalable
+          - Interacción y comunicación con el equipo de developers y business para cumplir con los requerimientos del producto
+          - Definición y documentación de los procesos
           - Análisis de métricas con Power Bi
 
       - role: QA Automation
         time: 03/2021 - 12/2021
         company: Geopagos, Argentina
         details: |
-          - Diseño, construcción y mantenimiento de pruebas automatizadas
-          - Pruebas Web y Servicios Rest con Katalon/Java
-          - Pruebas Mobile con Appium/Java
-          - Mantenimiento de librerías en python y java
+          - Diseño y construcción de Pruebas Web y API Rest con Katalon/Java
+          - Mantenimiento del framework de automatización de pruebas
+          - Pruebas de Backend con Postman
+          - Pruebas Mobile con Appium y Java
+          - Mantenimiento de librerías en Python y Java
           - Ejecución de pruebas de carga y stress con Jmeter
-          - Implementación de CI/CD Gitlab
+          - Implementación de las pruebas en el proceso de desarrollo (CI/CD) con gitlab
 
       - role: QA Manual / Automation
         time: 06/2018 - 03/2021
@@ -87,17 +82,22 @@ experiences:
         details: |
           - Elaboración de Planes de prueba
           - Diseño y ejecución de Casos de Pruebas funcionales
-          - Diseño y ejecución de Casos de Pruebas servicios Rest/Soap
+          - Diseño y ejecución de Casos de Pruebas de servicios Rest/Soap
           - Reportes y seguimiento de incidencias en Jira
-          - Elaboración de framework de pruebas automatizadas con Robotframework/Python
+          - Soporte para Pruebas de Aceptacion de usuario
+          - Análisis de bug productivos
+          - Participación de reuniones para el análisis y mejoras de requerimientos
       
       - role: Analista/Programador
         time: 01/2016 - 12/2020
         company: Dirección Proyectos Informáticos (DPI), Argentina
         details: |
-          - Análisis y diseño de requerimientos.
-          - Documentación de requerimientos de software
-          - Programación de backend y frontend del sistema. Backend: Laravel/php. Frontend: Angular JS, React JS
+          - Entrevista con los diferentes clientes para la recolección de requisitos del software
+          - Creación de los requerimientos de software para su diseño e implementación
+          - Modelado de los procesos de negocio utilizando la notación bpmn
+          - Programación del Backend del sistema con php y laravel
+          - Programación del frontend con Angular JS
+          - Migración del Frontend hacia React JS
 
 skills:
     title: Stack tecnologías
