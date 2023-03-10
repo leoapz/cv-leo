@@ -68,6 +68,7 @@ experiences:
         company: Geopagos, Argentina
         details: |
           - Automatización de pruebas funcionales con JavaScript y Cypress
+          - Automatización de pruebas de API con Cucumber en JavaScript
           - Definición de la Estrategia de Pruebas Automatizadas para cada equipo
           - Evaluación de frameworks y herramientas de automatización para las distintas necesidades de los proyectos
           - Definición de la Arquitectura y Patrones de Diseño de los Test Cases para lograr una solución mantenible y escalable
@@ -126,6 +127,7 @@ skills:
           - name: Selenium/Python/Java
           - name: RobotFramework/Python
           - name: Cypress/Javascript
+          - name: Cucumber/Javascript
           - name: Katalon/Java
       - category: >
           <i class="fas fa-mobile"></i> Mobile Automation
