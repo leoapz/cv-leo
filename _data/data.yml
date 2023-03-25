@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -32,7 +32,6 @@ sidebar:
       info:
         - idiom: Español
           level: Nativo
-
         - idiom: Ingles
           level: A2
 
@@ -41,16 +40,12 @@ sidebar:
       info:
         - item: Blockchain
           link:
-
-        - item: Programacion
-          link:
-
-        - item: Desarrollo Mobile
-          link:
+        - item: AI
+          link:    
 
 education:
     title: Formación Académica
-    info:
+    graduation:
       - degree: Ingeniero en Sistemas de Información
         university: Universidad Tecnológica Nacional (UTN)
         time: |
@@ -58,23 +53,27 @@ education:
       - degree: Analista Universitario en Sistemas
         university: Universidad Tecnológica Nacional (UTN)
         time: |
+      - degree: Analista Universitario en Sistemas
+        university: Universidad Tecnológica Nacional (UTN)
+        time: |
         details: |
 
 experiences:
       title: Experiencia Profesional
-      info:
-      - role: QA Automation Architecture
+      list:
+      - role: QA Automation Engineer
         time: 12/2021 - Actualidad
         company: Geopagos, Argentina
         details: |
-          - Automatización de pruebas funcionales con JavaScript y Cypress
-          - Automatización de pruebas de API con Cucumber en JavaScript
-          - Definición de la Estrategia de Pruebas Automatizadas para cada equipo
-          - Evaluación de frameworks y herramientas de automatización para las distintas necesidades de los proyectos
-          - Definición de la Arquitectura y Patrones de Diseño de los Test Cases para lograr una solución mantenible y escalable
-          - Interacción y comunicación con el equipo de developers y business para cumplir con los requerimientos del producto
-          - Definición y documentación de los procesos
-          - Análisis de métricas con Power Bi
+          - Automatización de pruebas funcionales utilizando JavaScript y Cypress
+          - Automatización de pruebas de API utilizando Cucumber y JavaScript
+          - Pruebas de Carga con K6 JavaScript
+          - Definición de la Estrategia de Pruebas Automatizadas
+          - Evaluación y análisis de frameworks y herramientas de automatización para las distintas necesidades de los proyectos existentes
+          - Definición de la Arquitectura y aplicación de Patrones de Diseño en los Test Cases
+          - Comunicación con el equipo de desarrolladores y negocio para coordinar y cumplir con los requerimientos del producto
+          - Definición de procesos para mejorar la claridad de los procedimientos y asegurar la consistencia en el proceso de pruebas.
+          - Analisis métricas con Power BI, para obtener información sobre la eficacia de las pruebas e identificar áreas de mejora.
 
       - role: QA Automation
         time: 03/2021 - 12/2021
@@ -86,15 +85,14 @@ experiences:
           - Pruebas Mobile con Appium y Java
           - Mantenimiento de librerías en Python y Java
           - Ejecución de pruebas de carga y stress con Jmeter
-          - Implementación de las pruebas en el proceso de desarrollo (CI/CD) con gitlab
+          - Implementación de las pruebas en el proceso de desarrollo (CI/CD) con Gitlab
 
       - role: QA Manual / Automation
         time: 06/2018 - 03/2021
         company: Practia, Argentina
         details: |
-          - Elaboración de Planes de prueba
-          - Diseño y ejecución de Casos de Pruebas funcionales
-          - Diseño y ejecución de Casos de Pruebas de servicios Rest/Soap
+          - Elaboración de Planes de pruebas
+          - Diseño y ejecución de Casos de Pruebas funcionales Web y API
           - Reportes y seguimiento de incidencias en Jira
           - Soporte para Pruebas de Aceptacion de usuario
           - Análisis de bug productivos
@@ -137,6 +135,7 @@ skills:
           <i class="fas fa-tachometer-alt"></i> Performance Test
         elements:
           - name: Jmeter
+          - name: K6
       - category: >
           <i class="fas fa-cog"></i> Services
         elements:
@@ -157,10 +156,10 @@ skills:
           - name: Postgresql
           - name:	MongoDB
       - category: >
-          <i class="fas fa-comment"></i> Messaging/Logging
+          <i class="fas fa-comment"></i> Monitoreo
         elements:
-          - name: RabbitMQ
-          - name: Elasticsearch
+          - name: NewRelic
+          - name: Kibana
       - category: >
           <i class="fas fa-box"></i> Containers
         elements:
@@ -173,3 +172,4 @@ skills:
           <i class="fas fa-code-branch"></i> CI/CD
         elements:
           - name: Gitlab
+          - name: Github
