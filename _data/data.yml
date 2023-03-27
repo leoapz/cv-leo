@@ -91,12 +91,13 @@ experiences:
         time: 06/2018 - 03/2021
         company: Practia, Argentina
         details: |
-          - Elaboración de Planes de pruebas
-          - Diseño y ejecución de Casos de Pruebas funcionales Web y API
-          - Reportes y seguimiento de incidencias en Jira
-          - Soporte para Pruebas de Aceptacion de usuario
-          - Análisis de bug productivos
-          - Participación de reuniones para el análisis y mejoras de requerimientos
+          - Elaboración y mantenimiento de planes de prueba y estrategias de calidad        
+          - Automatización de pruebas y mantenimiento de scripts utilizando Python y RobotFramework
+          - Pruebas de servicios con SoapUI
+          - Diseño y ejecución de casos de pruebas funcionales y no funcionales
+          - Análisis, reportes y seguimiento de incidencias utilizando Jira
+          - Colaboración en el soporte de pruebas de aceptación de usuario y en el análisis de bugs productivos
+          - Participación en reuniones técnicas para el análisis y mejora continua de requerimientos y soluciones
       
       - role: Analista/Programador
         time: 01/2016 - 12/2020
